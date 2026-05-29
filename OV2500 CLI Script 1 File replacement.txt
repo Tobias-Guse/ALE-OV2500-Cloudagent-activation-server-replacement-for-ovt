@@ -1,0 +1,6 @@
+show cloud-agent status
+sleep 1
+cat working/cloudagent.cfg
+sleep 1
+sed -i 's/^Activation Server URL:.*/Activation Server URL: activation.myovterra.com/' working/cloudagent.cfg
+sleep 1
