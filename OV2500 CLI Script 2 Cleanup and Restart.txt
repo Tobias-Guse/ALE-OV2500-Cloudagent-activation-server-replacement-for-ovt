@@ -2,13 +2,13 @@ cat working/cloudagent.cfg
 sleep 1
 echo "y" | cloud-agent admin-state disable force
 sleep 1
-rm switch/cloud/client.crt
+echo "y" | rm switch/cloud/client.crt
 sleep 1
-rm switch/cloud/csr.crt
+echo "y" | rm switch/cloud/csr.crt
 sleep 1
-rm switch/cloud/private.key
+echo "y" | rm switch/cloud/private.key
 sleep 1
-rm switch/cloud/public.key
+echo "y" | rm switch/cloud/public.key
 sleep 1
 cloud-agent admin-state enable
 sleep 30
