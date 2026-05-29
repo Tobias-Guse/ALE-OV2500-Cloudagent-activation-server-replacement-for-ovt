@@ -1,4 +1,4 @@
-# ALE-OV2500-Cloudagent-activation-server-replacement-for-ovt
+# ALE-OmniVista2500-Cloudagent-activation-server-replacement-for-ovt
 The scripts update the activation server, remove old certificate files, restart the cloud agent, and verify connectivity to ensure a successful migration to OmniVista Terra.
 
 Goal:
